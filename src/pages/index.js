@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from 'react-awesome-styled-grid'
-import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaViadeo, FaStackOverflow, FaStackExchange, FaEnvelope, FaPhone } from "react-icons/fa"
 import siteConfig from '../../data/siteConfig'
 
 import Layout from '../components/layout'
@@ -11,7 +11,7 @@ import Wrapper from '../components/wrapper'
 import About from '../components/about'
 import Skills from '../components/skills'
 import Timeline from '../components/timeline'
-import Repositories from '../components/repositories'
+import Studies from '../components/studies'
 
 const Separator = styled.hr`
   margin-top: 24px;
@@ -43,9 +43,10 @@ class Home extends React.Component {
           <Container className="page-content" fluid>
             <Row>
               <Col xs={4} className='avatar'>
-                <img
-                  className='avatar__image'
-                  src='/images/avatar.jpeg'
+                <object
+                  className="avatar__image"
+                  type="image/svg+xml"
+                  data='/images/avatar.svg'
                   alt='user avatar'
                 />
                 <div className="social">
@@ -55,27 +56,36 @@ class Home extends React.Component {
                   {siteConfig.social.linkedin && <a className="social-link linkedin" href={siteConfig.social.linkedin}>
                     <FaLinkedin className="social-icon" size="32" />
                   </a>}
-                  {siteConfig.social.twitter && <a className="social-link twitter" href={siteConfig.social.twitter}>
-                    <FaTwitter className="social-icon" size="32" />
+                  {siteConfig.social.viadeo && <a className="social-link viadeo" href={siteConfig.social.viadeo}>
+                    <FaViadeo className="social-icon" size="32" />
+                  </a>}
+                  {siteConfig.social.stackOverflow && <a className="social-link stackoverflow" href={siteConfig.social.stackOverflow}>
+                    <FaStackOverflow className="social-icon" size="32" />
+                  </a>}
+                  {siteConfig.social.stackExchange && <a className="social-link stackexchange" href={siteConfig.social.stackExchange}>
+                    <FaStackExchange className="social-icon" size="32" />
                   </a>}
                   {siteConfig.social.email && <a className="social-link email" href={`mailto:${siteConfig.social.email}`}>
                     <FaEnvelope className="social-icon" size="32" />
+                  </a>}
+                  {siteConfig.social.phone && <a className="social-link phone" href={`tel:${siteConfig.social.phone}`}>
+                    <FaPhone className="social-icon" size="32" />
                   </a>}
                 </div>
               </Col>
             </Row>
             <Row>
               <Col xs={4} sm={4}>
-                <About title='About' text={siteConfig.authorDescription}/>
+                <About title='&Agrave; propos' text={siteConfig.authorDescription}/>
               </Col>
               <Col xs={4} sm={4}>
-                <Skills title='Skills' skills={siteConfig.skills} />
+                <Skills title='Compétences' skills={siteConfig.skills} />
               </Col>
             </Row>
             <Separator />
             <Timeline />
             <Separator />
-            <Repositories />
+            <Studies />
           </Container>
         </Wrapper>
       </Layout>
@@ -91,13 +101,11 @@ export default styled(Home)`
 
   .avatar {
     align-items: center;
-  margin-bottom: 24px;
+    margin-bottom: 24px;
   }
 
   .avatar__image {
-    box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.75);
     max-width: 200px;
-    border-radius: 100px;
     margin: 0 auto 24px;
   }
 

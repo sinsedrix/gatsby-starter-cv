@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+   viewBox="-10 0 80 80"
+>
+  <defs id="defs2">
+    <pattern id="avatar" patternUnits="userSapceOnUse" width="100" height="128">
+     <image href="https://fr.gravatar.com/userimage/13292560/6075aaabc941809f2c6e2959ec4ba2b1.png?size=200" x="-5" y="38" width="70" height="70" />
+    </pattern>
+  	<filter id="dropshadow" height="120%">
+  	  <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+  	  <feOffset dx="1" dy="1" result="offsetblur"/>
+  	  <feComponentTransfer>
+  		<feFuncA type="linear" slope="0.8"/>
+  	  </feComponentTransfer>
+  	  <feMerge> 
+  		<feMergeNode/>
+  		<feMergeNode in="SourceGraphic"/>
+  	  </feMerge>
+  	</filter>
+  </defs>
+
+    <g id="layer1" transform="translate(0,-30)">
+    <path
+       style="stroke:#000000;stroke-width:0.1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="path4487"
+       fill="url(#avatar)"
+	     filter="url(#dropshadow)"
+       d="M 30.000001,105.79724 C 28.306695,105.79724 1.51773,90.330636 0.67107624,88.864185 -0.17557654,87.397742 -0.17557741,56.464513 0.67107552,54.998062 1.5177286,53.531619 28.306693,38.065001 29.999999,38.065001 c 1.693307,0 28.482271,15.466618 29.328925,16.933061 0.846653,1.466444 0.846653,32.39968 0,33.866123 -0.846653,1.466451 -27.635617,16.933055 -29.328923,16.933055 z" />
+  </g>
+</svg>

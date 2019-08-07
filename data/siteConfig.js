@@ -1,91 +1,129 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
-  siteDescription: `Create your online curriculum in just a few minutes with this starter`,
+  siteTitle: 'Ingénieur Développement Fullstack',
+  siteDescription: `Voici mon CV basé sur un starter Gatsby`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
+  authorName: 'Cédric COULIOU',
+  twitterUsername: 'sinsedrix',
+  githubUsername: 'sinsedrix',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  authorDescription: `Développeur, touche à tout. <br />
+  J'aimerais travailler sur des technologies d'actualité telles que <strong>Javascript, NodeJS et React.</strong>`,
   skills: [
     {
-      name: 'HTML',
+      name: 'C#',
+      level: 80
+    },
+    {
+      name: 'ASP.Net',
+      level: 80
+    },
+    {
+      name: 'C/C++',
+      level: 60
+    },
+    {
+      name: 'Java',
       level: 70
+    },
+    {
+    name: 'HTML',
+      level: 80
     },
     {
       name: 'CSS',
-      level: 60
+      level: 80
     },
     {
       name: 'Javascript',
-      level: 50
+      level: 90
     },
     {
       name: 'NodeJs',
-      level: 40
+      level: 25
     },
     {
       name: 'React',
-      level: 60
+      level: 50
     },
     {
       name: 'Git',
-      level: 70
+      level: 50
     }
   ],
   jobs: [
     {
-      company: "Lendico",
+      company: "VERLINGUE",
       begin: {
-        month: 'apr',
-        year: '2018'
-      },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
-  
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'dec',
-        year: '2016'
-      },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'set',
+        month: 'fev',
         year: '2012'
       },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+      duration: null,
+      occupation: "Ingénieur étude & développement",
+      description: "J'y' développe et maintiens les intranets, extranets, services métier et technique."
   
+    }, {
+      company: "AUSY pour le CIMUT",
+      begin: {
+        month: 'sept',
+        year: '2010'
+      },
+      duration: '2 ans et 6 mois',
+      occupation: "Ingénieur développement",
+      description: "Développement, maintenance et refonte graphique de l'appli Starweb."
+    }, {
+      company: "ALTECA pour le CIMUT",
+      begin: {
+        month: 'avr',
+        year: '2010'
+      },
+      duration: '6 mois',
+      occupation: "Ingénieur développement",
+      description: "Développement, maintenance et génération de code sur l'appli Starweb"
+    }, {
+      company: "Synergie pour Ozalit",
+      begin: {
+        month: 'fev',
+        year: '2010'
+      },
+      duration: '3 mois',
+      occupation: "Ingénieur développement web",
+      description: "Conception et développement de sites corporatifs, e-boutiques et catalogues interactifs."
     },
     /* ... */
   ],
+  studies: [
+    {
+      year:'2015',
+      degree:"Master Informatique du Logiciel",
+      location:"UBO de Brest"
+    },
+    {
+      year:'2013',
+      degree:"Maîtrise d''informatique",
+      location:"UBO de Brest"
+    },
+  ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    twitter: "https://twitter.com/sinsedrix",
+    linkedin: "https://www.linkedin.com/in/sinsedrix",
+    viadeo: "https://fr.viadeo.com/fr/profile/cedric.c1",
+    stackOverflow: 'https://stackoverflow.com/users/1177999/sinsedrix',
+    //stackExchange: 'https://stackoverflow.com/users/1209090/sinsedrix',
+    github: "https://github.com/sinsedrix",
+    email: "cedric.couliou@gmail.com",
+    phone:"06.75.54.97.19"
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
+  siteUrl: 'https://sinsedrix.github.io/gatsbystarter-cv',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
-  background_color: '#ffffff',
+  background_color: '#eeffff',
   theme_color: '#25303B',
   display: 'minimal-ui',
   icon: 'src/assets/gatsby-icon.png',
   headerLinks: [
     {
-      label: 'Francisco Santos',
+      label: 'Cédric COULIOU',
       url: '/',
     }
   ]
