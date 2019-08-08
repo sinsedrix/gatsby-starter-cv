@@ -11,8 +11,9 @@ const Studies = ({ className }) => {
         <article key={study.year} className='study__item'>
           <div className="inner">
             <span className="study__year">{study.year}</span>
+            {` `}
             <span className='study__degree'>{study.degree}</span>
-             à 
+            {` `} à {` `}
             <span className='study__location'>{study.location}</span>
           </div>
         </article>
@@ -21,4 +22,14 @@ const Studies = ({ className }) => {
   )
 }
 
-export default Studies
+export default styled(Studies)`
+.study__year {
+  color: #25303B;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.study__location {
+  font-style: italic;
+}
+`

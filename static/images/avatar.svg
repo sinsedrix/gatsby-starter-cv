@@ -3,7 +3,7 @@
 >
   <defs id="defs2">
     <pattern id="avatar" patternUnits="userSapceOnUse" width="100" height="128">
-     <image href="https://fr.gravatar.com/userimage/13292560/6075aaabc941809f2c6e2959ec4ba2b1.png?size=200" x="-5" y="38" width="70" height="70" />
+     <image href="avatar.png" x="-10" y="35" width="80" height="80" />
     </pattern>
   	<filter id="dropshadow" height="120%">
   	  <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>

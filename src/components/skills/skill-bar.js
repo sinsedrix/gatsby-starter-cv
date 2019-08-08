@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const SkillBar = ({ className, name, level }) => {
   return (
     <div className={className}>
-    <label htmlFor={`${name}-bar`}>{name}</label>
+    <label htmlFor={`${name}-bar`} className='skill__label'>{name}</label>
       <div id={`${name}-bar`} className='skill__bar'>
         <div className='skill__level'></div>
       </div>
@@ -15,7 +15,10 @@ const SkillBar = ({ className, name, level }) => {
 SkillBar.displaName = 'SkillBar'
 
 export default styled(SkillBar)`
-  
+  .skill__label {
+    font-family: 'SFMono-Regular', Consolas, 'Roboto Mono', 'Droid Sans Mono',
+    'Liberation Mono', Menlo, Courier, monospace;
+  }
   .skill__bar {
     height: 10px;
     background-color: lightgrey;

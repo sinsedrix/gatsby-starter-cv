@@ -46,7 +46,7 @@ class Home extends React.Component {
                 <object
                   className="avatar__image"
                   type="image/svg+xml"
-                  data='/images/avatar.svg'
+                  data='./images/avatar.svg'
                   alt='user avatar'
                 />
                 <div className="social">
@@ -133,5 +133,17 @@ export default styled(Home)`
 
   a.social-link.email:hover {
     color: #c23a2b;
+  }
+
+  a.social-link.phone:hover {
+    color: #40E25D;
+  }
+
+  a.social-link.viadeo:hover {
+    color: #EE7252;
+  }
+
+  a.social-link.stackoverflow:hover {
+    color: #DA670B;
   }
 `

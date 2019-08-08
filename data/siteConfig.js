@@ -5,8 +5,9 @@ module.exports = {
   authorName: 'Cédric COULIOU',
   twitterUsername: 'sinsedrix',
   githubUsername: 'sinsedrix',
-  authorAvatar: '/images/avatar.jpeg',
+  authorAvatar: './images/avatar.jpeg',
   authorDescription: `Développeur, touche à tout. <br />
+  J'ai des expériences en informatique industrielle et de gestion. <br/>
   J'aimerais travailler sur des technologies d'actualité telles que <strong>Javascript, NodeJS et React.</strong>`,
   skills: [
     {
@@ -42,12 +43,24 @@ module.exports = {
       level: 25
     },
     {
-      name: 'React',
+      name: 'React, Gatsby',
       level: 50
     },
     {
-      name: 'Git',
+      name: 'SVN, Git',
       level: 50
+    },
+    {
+      name: 'WAMP, LAMP, IIS',
+      level: 50
+    },
+    {
+      name: 'MS Visual Studio, NetBeans, Eclipse',
+      level: 80
+    },
+    {
+      name: 'GIMP, Inkscape, Sketchup',
+      level: 70
     }
   ],
   jobs: [
@@ -59,7 +72,7 @@ module.exports = {
       },
       duration: null,
       occupation: "Ingénieur étude & développement",
-      description: "J'y' développe et maintiens les intranets, extranets, services métier et technique."
+      description: "Développement et maintenance des intranets, extranets, services métier et technique."
   
     }, {
       company: "AUSY pour le CIMUT",
@@ -88,19 +101,102 @@ module.exports = {
       duration: '3 mois',
       occupation: "Ingénieur développement web",
       description: "Conception et développement de sites corporatifs, e-boutiques et catalogues interactifs."
+    }, {
+      company: "Eurogiciel pour Thalès Systèmes Aéroportés",
+      begin: {
+        month: 'fev',
+        year: '2009'
+      },
+      duration: '18 mois',
+      occupation: "Ingénieur Intégration",
+      description: "Validation, Vérification, Qualification d'un système de cartographie embarqué."
+    }, {
+      company: "Eurogiciel pour Unilog/Logica",
+      begin: {
+        month: 'juin',
+        year: '2007'
+      },
+      duration: '13 mois',
+      occupation: "Ingénieur application",
+      description: "Développement et homologation des distributeurs de billets SNCF."
+    }, {
+      company: "Eurogiciel pour Thalès Avionics",
+      begin: {
+        month: 'avr',
+        year: '2006'
+      },
+      duration: '4 mois',
+      occupation: "Ingénieur application",
+      description: "Développement et validation de simulateurs de vol A380."
+    }, {
+      company: "IPSIS pour IRISA",
+      begin: {
+        month: 'déc',
+        year: '2005'
+      },
+      duration: '2 mois',
+      occupation: "Ingénieur application",
+      description: "Développement d'un simulateur de déplacement de piétons dans une gare."
+    }, {
+      company: "Thalès Systèmes Aéroportés pour UBO Brest",
+      begin: {
+        month: 'juin',
+        year: '2005'
+      },
+      duration: '2 mois',
+      occupation: "Stagiaire",
+      description: "Développement d'une couche cartographique à destination des SIG."
+    }, {
+      company: "Caisse Régionale du Crédit Agricole",
+      begin: {
+        month: 'juin',
+        year: '2004'
+      },
+      duration: '2 mois',
+      occupation: "Saisonnier",
+      description: "Maintenance et normalisation des bases de données clients."
+    }, {
+      company: "Caisse Régionale du Crédit Agricole pour UBO Brest",
+      begin: {
+        month: 'juin',
+        year: '2003'
+      },
+      duration: '2 mois',
+      occupation: "Stagiaire",
+      description: "Gestion et maintenance des bases de données clients."
     },
     /* ... */
   ],
   studies: [
     {
-      year:'2015',
-      degree:"Master Informatique du Logiciel",
-      location:"UBO de Brest"
+      year:'2017',
+      degree:"Talend",
+      location:"ENI Services"
     },
     {
-      year:'2013',
-      degree:"Maîtrise d''informatique",
-      location:"UBO de Brest"
+      year:'2014',
+      degree:"Crystal Reports",
+      location:"ENI Services"
+    },
+    {
+      year:'2012',
+      degree:"PL/SQL",
+      location:"ENI Services"
+    },
+    {
+      year:'2005',
+      degree:"Master Informatique du Logiciel",
+      location:"UBO Brest"
+    },
+    {
+      year:'2004',
+      degree:"Maîtrise d'informatique",
+      location:"UBO Brest"
+    },
+    {
+      year:'2002',
+      degree:"Licence d'informatique",
+      location:"UBO Brest"
     },
   ],
   social: {
@@ -115,7 +211,7 @@ module.exports = {
   },
   siteUrl: 'https://sinsedrix.github.io/gatsbystarter-cv',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/cover.jpeg',
+  siteCover: './images/cover.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#eeffff',
   theme_color: '#25303B',
