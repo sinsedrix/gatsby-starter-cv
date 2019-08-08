@@ -51,11 +51,15 @@ module.exports = {
       level: 50
     },
     {
+      name: 'Oracle, PostgreSQL',
+      level: 60
+    },
+    {
       name: 'WAMP, LAMP, IIS',
       level: 50
     },
     {
-      name: 'MS Visual Studio, NetBeans, Eclipse',
+      name: 'Visual Studio, NetBeans, Eclipse',
       level: 80
     },
     {
@@ -78,7 +82,7 @@ module.exports = {
       company: "AUSY pour le CIMUT",
       begin: {
         month: 'sept',
-        year: '2010'
+        year: '2009'
       },
       duration: '2 ans et 6 mois',
       occupation: "Ingénieur développement",
@@ -87,16 +91,16 @@ module.exports = {
       company: "ALTECA pour le CIMUT",
       begin: {
         month: 'avr',
-        year: '2010'
+        year: '2009'
       },
-      duration: '6 mois',
+      duration: '5 mois',
       occupation: "Ingénieur développement",
       description: "Développement, maintenance et génération de code sur l'appli Starweb"
     }, {
       company: "Synergie pour Ozalit",
       begin: {
         month: 'fev',
-        year: '2010'
+        year: '2009'
       },
       duration: '3 mois',
       occupation: "Ingénieur développement web",
@@ -105,7 +109,7 @@ module.exports = {
       company: "Eurogiciel pour Thalès Systèmes Aéroportés",
       begin: {
         month: 'fev',
-        year: '2009'
+        year: '2008'
       },
       duration: '18 mois',
       occupation: "Ingénieur Intégration",
@@ -114,7 +118,7 @@ module.exports = {
       company: "Eurogiciel pour Unilog/Logica",
       begin: {
         month: 'juin',
-        year: '2007'
+        year: '2006'
       },
       duration: '13 mois',
       occupation: "Ingénieur application",
@@ -140,10 +144,10 @@ module.exports = {
     }, {
       company: "Thalès Systèmes Aéroportés pour UBO Brest",
       begin: {
-        month: 'juin',
+        month: 'mars',
         year: '2005'
       },
-      duration: '2 mois',
+      duration: '6 mois',
       occupation: "Stagiaire",
       description: "Développement d'une couche cartographique à destination des SIG."
     }, {
