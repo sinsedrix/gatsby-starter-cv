@@ -5,7 +5,7 @@ module.exports = {
   authorName: 'Cédric COULIOU',
   twitterUsername: 'sinsedrix',
   githubUsername: 'sinsedrix',
-  authorAvatar: './images/avatar.jpeg',
+  authorAvatar: '/images/avatar.webp',
   authorDescription: `Développeur, touche à tout. <br />
   J'ai des expériences en informatique industrielle et de gestion. <br/>
   J'aimerais travailler sur des technologies d'actualité telles que <strong>Javascript, NodeJS et React.</strong>`,
@@ -215,7 +215,7 @@ module.exports = {
   },
   siteUrl: 'https://www.tool2team.org/cv',
   pathPrefix: '/cv', // Note: it must *not* have a trailing slash.
-  siteCover: './images/cover.webp',
+  siteCover: '/images/cover.webp',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#eeffff',
   theme_color: '#25303B',
