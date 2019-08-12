@@ -213,8 +213,8 @@ module.exports = {
     email: "cedric.couliou@gmail.com",
     phone:"06.75.54.97.19"
   },
-  siteUrl: 'https://sinsedrix.github.io/gatsbystarter-cv',
-  pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
+  siteUrl: 'https://www.tool2team.org/cv',
+  pathPrefix: '/cv', // Note: it must *not* have a trailing slash.
   siteCover: './images/cover.webp',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#eeffff',
