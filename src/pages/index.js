@@ -47,7 +47,7 @@ class Home extends React.Component {
                   className="avatar__image"
                   type="image/svg+xml"
                   data='./images/avatar.svg'
-                  alt='user avatar'
+                  title='user avatar'
                 />
                 <div className="social">
                   {siteConfig.social.github && <a className="social-link github" href={siteConfig.social.github}>
