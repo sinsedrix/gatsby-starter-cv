@@ -144,7 +144,7 @@ module.exports = {
     }, {
       company: "Thalès Systèmes Aéroportés pour UBO Brest",
       begin: {
-        month: 'mars',
+        month: 'mar',
         year: '2005'
       },
       duration: '6 mois',

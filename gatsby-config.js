@@ -10,7 +10,6 @@ module.exports = {
   pathPrefix: config.pathPrefix,
   plugins: [
     `gatsby-plugin-react-helmet`,
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
