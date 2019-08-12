@@ -22,7 +22,7 @@ class Home extends React.Component {
   render () {
     // validate siteConfig settings
     if (siteConfig.googleAnalyticsId === 'UA-000000000-1') {
-      console.error('WARNING: Please set a proper googleAnalyticsId. See https://analytics.google.com for details.');
+      console.warn('WARNING: Please set a proper googleAnalyticsId. See https://analytics.google.com for details.');
     }
 
     const title = siteConfig.siteTitle
@@ -47,7 +47,7 @@ class Home extends React.Component {
                   className="avatar__image"
                   type="image/svg+xml"
                   data='./images/avatar.svg'
-                  alt='user avatar'
+                  title='user avatar'
                 />
                 <div className="social">
                   {siteConfig.social.github && <a className="social-link github" href={siteConfig.social.github}>

@@ -215,7 +215,7 @@ module.exports = {
   },
   siteUrl: 'https://sinsedrix.github.io/gatsbystarter-cv',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
-  siteCover: './images/cover.jpeg',
+  siteCover: './images/cover.webp',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#eeffff',
   theme_color: '#25303B',
