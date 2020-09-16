@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/sinsedrix/gatsby-starter-cv.svg?branch=master)](https://travis-ci.org/sinsedrix/gatsby-starter-cv)
+[![Build Status](https://travis-ci.com/sinsedrix/gatsby-starter-cv.svg?branch=master)](https://travis-ci.com/sinsedrix/gatsby-starter-cv)
 [![GitHub version](https://badge.fury.io/gh/sinsedrix%2Fgatsby-starter-cv.svg)](https://badge.fury.io/gh/sinsedrix%2Fgatsby-starter-cv)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
